@@ -1,0 +1,360 @@
+[
+  {
+    "gender": "female",
+    "name": { "title": "Mrs", "first": "Keira", "last": "Turner" },
+    "location": {
+      "street": { "number": 5853, "name": "Heretaunga Street" },
+      "city": "Masterton",
+      "state": "Bay of Plenty",
+      "country": "New Zealand",
+      "postcode": 97979,
+      "coordinates": { "latitude": "60.9708", "longitude": "126.5206" },
+      "timezone": {
+        "offset": "+7:00",
+        "description": "Bangkok, Hanoi, Jakarta"
+      }
+    },
+    "email": "keira.turner@example.com",
+    "login": {
+      "uuid": "8c9d9571-f7c4-4d9d-9ec4-8754a60e5282",
+      "username": "crazylion523",
+      "password": "search",
+      "salt": "CVr2K2K6",
+      "md5": "b9f9bd2afe3197033124c5f9ae634be4",
+      "sha1": "60846ef7370ea2aef0e698171219939970ee3809",
+      "sha256": "478777e4d82dc177687f84925f69500fb0ef6af5370b3133bb3ceeffb1a6f043"
+    },
+    "dob": { "date": "1962-12-27T04:56:57.387Z", "age": 57 },
+    "registered": { "date": "2007-07-18T19:31:44.419Z", "age": 12 },
+    "phone": "(409)-315-1572",
+    "cell": "(003)-553-6464",
+    "id": { "name": "", "value": null },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/61.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
+    },
+    "nat": "NZ"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Mrs", "first": "Charlotte", "last": "Green" },
+    "location": {
+      "street": { "number": 3401, "name": "Opawa Road" },
+      "city": "Taupo",
+      "state": "Tasman",
+      "country": "New Zealand",
+      "postcode": 73807,
+      "coordinates": { "latitude": "4.5793", "longitude": "107.9868" },
+      "timezone": {
+        "offset": "+10:00",
+        "description": "Eastern Australia, Guam, Vladivostok"
+      }
+    },
+    "email": "charlotte.green@example.com",
+    "login": {
+      "uuid": "40058959-7a7d-4b33-ae59-bcb55ba78a43",
+      "username": "silvertiger716",
+      "password": "clifford",
+      "salt": "uuTQDFOq",
+      "md5": "6c020fe18b7eb8614abd57f39687d560",
+      "sha1": "a2c172eb5b8587e701b9034696a3a3b61e86350a",
+      "sha256": "4061721b0d0d970c576f767ec031687a707608595091e998e4e2798afae2db43"
+    },
+    "dob": { "date": "1978-05-04T04:16:38.433Z", "age": 41 },
+    "registered": { "date": "2007-08-19T02:49:27.673Z", "age": 12 },
+    "phone": "(823)-117-1569",
+    "cell": "(955)-763-1596",
+    "id": { "name": "", "value": null },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/61.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
+    },
+    "nat": "NZ"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Roberto", "last": "Santiago" },
+    "location": {
+      "street": { "number": 4405, "name": "Calle de La Democracia" },
+      "city": "Pamplona",
+      "state": "Cantabria",
+      "country": "Spain",
+      "postcode": 16508,
+      "coordinates": { "latitude": "49.6687", "longitude": "140.2654" },
+      "timezone": { "offset": "-11:00", "description": "Midway Island, Samoa" }
+    },
+    "email": "roberto.santiago@example.com",
+    "login": {
+      "uuid": "a94ae453-2c28-4afe-98ca-529fa66ed078",
+      "username": "ticklishdog304",
+      "password": "oakland",
+      "salt": "KsspAhpL",
+      "md5": "d7f2eb69fbce60358e6764fb8863fbf0",
+      "sha1": "3ed60c01a5bbc916dfa799c47244b0acd81b19ab",
+      "sha256": "f832fc2ebe1744925aa972fcc351b2f7284ed926770c6ce909d867eb34aaa49c"
+    },
+    "dob": { "date": "1994-05-13T23:30:20.063Z", "age": 25 },
+    "registered": { "date": "2015-01-21T23:22:18.460Z", "age": 4 },
+    "phone": "954-454-070",
+    "cell": "688-085-291",
+    "id": { "name": "DNI", "value": "87326003-O" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/37.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Anthony", "last": "Harvey" },
+    "location": {
+      "street": { "number": 3338, "name": "Dublin Road" },
+      "city": "Portmarnock",
+      "state": "Donegal",
+      "country": "Ireland",
+      "postcode": 14196,
+      "coordinates": { "latitude": "30.9417", "longitude": "-97.8511" },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      }
+    },
+    "email": "anthony.harvey@example.com",
+    "login": {
+      "uuid": "19443613-9ad2-43eb-a876-871b0dd1c84f",
+      "username": "greengorilla730",
+      "password": "wave",
+      "salt": "9bI7vDIh",
+      "md5": "9878f43e4fbde84d46f9d08e642ce2ff",
+      "sha1": "c9f4661f89b657f4d01e96783d0b7a1d0eb9d0cd",
+      "sha256": "f5d15ff2cf275cc4d60a91c53b07168c9cdee67ced3a235197a1b1cd743758ad"
+    },
+    "dob": { "date": "1976-10-18T12:50:59.281Z", "age": 43 },
+    "registered": { "date": "2010-09-29T08:16:02.304Z", "age": 9 },
+    "phone": "041-697-4146",
+    "cell": "081-040-5658",
+    "id": { "name": "PPS", "value": "6021938T" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/85.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/85.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+    },
+    "nat": "IE"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Madame", "first": "Kelly", "last": "Caron" },
+    "location": {
+      "street": { "number": 677, "name": "Rue Louis-Garrand" },
+      "city": "Oberburg",
+      "state": "Aargau",
+      "country": "Switzerland",
+      "postcode": 4408,
+      "coordinates": { "latitude": "-54.0964", "longitude": "119.7942" },
+      "timezone": {
+        "offset": "-1:00",
+        "description": "Azores, Cape Verde Islands"
+      }
+    },
+    "email": "kelly.caron@example.com",
+    "login": {
+      "uuid": "b53a1068-9406-4d52-830f-08f5781f56b9",
+      "username": "whiteleopard892",
+      "password": "bugger",
+      "salt": "hgqaDSGu",
+      "md5": "9cf602198371442f4cf0b272f616343c",
+      "sha1": "d78efcfd797e9a639746731576137251fb0c0477",
+      "sha256": "a8432043b9d11d905c3b105714483924db3b188bc7836a886d0f4818d751c7ff"
+    },
+    "dob": { "date": "1977-05-23T05:54:40.398Z", "age": 42 },
+    "registered": { "date": "2007-11-20T03:03:32.909Z", "age": 12 },
+    "phone": "077 122 11 71",
+    "cell": "079 699 96 42",
+    "id": { "name": "AVS", "value": "756.8698.1207.55" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/38.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/38.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/38.jpg"
+    },
+    "nat": "CH"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Tristan", "last": "Svanes" },
+    "location": {
+      "street": { "number": 3265, "name": "Kringlebekkveien" },
+      "city": "Ringvol",
+      "state": "Troms - Romsa",
+      "country": "Norway",
+      "postcode": "8095",
+      "coordinates": { "latitude": "-2.3839", "longitude": "128.5286" },
+      "timezone": {
+        "offset": "+10:00",
+        "description": "Eastern Australia, Guam, Vladivostok"
+      }
+    },
+    "email": "tristan.svanes@example.com",
+    "login": {
+      "uuid": "79fc727a-0608-4b8d-b041-f5e3882a61e9",
+      "username": "beautifulsnake897",
+      "password": "martha",
+      "salt": "5fMWu4eN",
+      "md5": "5fb261f4c201f5235ade47bf9c616910",
+      "sha1": "9c0134c3f02b13dee11c97930c5eea3ad2b4c77f",
+      "sha256": "d3e68d6f1761ffbbbba397590e92d1c8a5ed67b1b43ab44be00daf9c52c2f939"
+    },
+    "dob": { "date": "1992-08-26T06:24:15.601Z", "age": 27 },
+    "registered": { "date": "2003-12-31T15:33:53.311Z", "age": 16 },
+    "phone": "70924786",
+    "cell": "92108884",
+    "id": { "name": "FN", "value": "26089219549" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/55.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+    },
+    "nat": "NO"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Amanda", "last": "Jutila" },
+    "location": {
+      "street": { "number": 5000, "name": "Fredrikinkatu" },
+      "city": "Polvijärvi",
+      "state": "Åland",
+      "country": "Finland",
+      "postcode": 29983,
+      "coordinates": { "latitude": "-89.3482", "longitude": "-86.2106" },
+      "timezone": {
+        "offset": "+5:30",
+        "description": "Bombay, Calcutta, Madras, New Delhi"
+      }
+    },
+    "email": "amanda.jutila@example.com",
+    "login": {
+      "uuid": "11407b85-2f8e-4956-a682-4422b2f9eefa",
+      "username": "goldenmouse797",
+      "password": "beamer",
+      "salt": "MUODJsc3",
+      "md5": "a28692dca0713d318770f91ef7a543d3",
+      "sha1": "6ffd2486e41f5092b20509ff8130e2b461e1d712",
+      "sha256": "fa7d33e7e7558d73b7156827665f86ffbf6b4f00d7a7af40b3a787a262d8e243"
+    },
+    "dob": { "date": "1964-10-01T18:27:06.990Z", "age": 55 },
+    "registered": { "date": "2014-01-06T20:50:04.770Z", "age": 5 },
+    "phone": "09-953-751",
+    "cell": "043-893-76-73",
+    "id": { "name": "HETU", "value": "NaNNA508undefined" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/14.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/14.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+    },
+    "nat": "FI"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Mrs", "first": "Juana", "last": "Flores" },
+    "location": {
+      "street": { "number": 51, "name": "Calle de Téllez" },
+      "city": "Barcelona",
+      "state": "Ceuta",
+      "country": "Spain",
+      "postcode": 80487,
+      "coordinates": { "latitude": "-9.9074", "longitude": "-72.6284" },
+      "timezone": { "offset": "-11:00", "description": "Midway Island, Samoa" }
+    },
+    "email": "juana.flores@example.com",
+    "login": {
+      "uuid": "daee240c-99c3-4edf-97ac-de19c5e1a91d",
+      "username": "bigrabbit139",
+      "password": "master",
+      "salt": "I4B8EnUT",
+      "md5": "0ef020bf20f44777f0b0eb142ea06a2e",
+      "sha1": "f15c0d0174adc070950fface73e83aa1f7619c13",
+      "sha256": "a9d58c21e7e0e49425260ac79b292bb968b0bf7a930e1a788d249f0ea8688386"
+    },
+    "dob": { "date": "1985-05-23T17:12:07.577Z", "age": 34 },
+    "registered": { "date": "2009-07-20T11:48:41.094Z", "age": 10 },
+    "phone": "978-153-116",
+    "cell": "634-345-156",
+    "id": { "name": "DNI", "value": "36520991-A" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/10.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/10.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/10.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Silje", "last": "Poulsen" },
+    "location": {
+      "street": { "number": 2084, "name": "H.C. Lumbyes Vej" },
+      "city": "Juelsminde",
+      "state": "Danmark",
+      "country": "Denmark",
+      "postcode": 46341,
+      "coordinates": { "latitude": "69.5829", "longitude": "139.4317" },
+      "timezone": { "offset": "+6:00", "description": "Almaty, Dhaka, Colombo" }
+    },
+    "email": "silje.poulsen@example.com",
+    "login": {
+      "uuid": "18b1f47b-dbd3-420d-ad79-d6f13eb82af3",
+      "username": "ticklishladybug300",
+      "password": "stephan",
+      "salt": "UtiA46qG",
+      "md5": "346b9a8e0cb3684896dbd6d06a04e782",
+      "sha1": "25138064a2d0b8d15096801703ee55a95600c6f2",
+      "sha256": "cf9cee088075e786ad41d00660469292e165d51dacc130e7cad98d903c2195eb"
+    },
+    "dob": { "date": "1994-09-09T19:23:37.016Z", "age": 25 },
+    "registered": { "date": "2007-06-03T17:01:00.352Z", "age": 12 },
+    "phone": "40977285",
+    "cell": "95723419",
+    "id": { "name": "CPR", "value": "090994-4331" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/50.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/50.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/50.jpg"
+    },
+    "nat": "DK"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Miss", "first": "Martha", "last": "Røsnes" },
+    "location": {
+      "street": { "number": 5303, "name": "Kløverveien" },
+      "city": "Lonevåg",
+      "state": "Rogaland",
+      "country": "Norway",
+      "postcode": "3196",
+      "coordinates": { "latitude": "22.8719", "longitude": "88.8362" },
+      "timezone": { "offset": "-11:00", "description": "Midway Island, Samoa" }
+    },
+    "email": "martha.rosnes@example.com",
+    "login": {
+      "uuid": "a7940e15-ac5a-42ff-85c8-25df4cac580e",
+      "username": "happybear793",
+      "password": "12345a",
+      "salt": "PC15Jaq4",
+      "md5": "3e3346d687cd189349f10ef8992bf6a3",
+      "sha1": "ce81f20e689f375859d81a71c7146c7099c424ce",
+      "sha256": "7164ea6cf6d9b1fd20a980ad041621bcd2267480f7d470529ed234bc960a680e"
+    },
+    "dob": { "date": "1970-04-30T03:42:41.748Z", "age": 49 },
+    "registered": { "date": "2009-02-06T01:22:46.835Z", "age": 10 },
+    "phone": "34243506",
+    "cell": "94747245",
+    "id": { "name": "FN", "value": "30047017293" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/11.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/11.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/11.jpg"
+    },
+    "nat": "NO"
+  }
+]
