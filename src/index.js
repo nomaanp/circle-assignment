@@ -2,10 +2,10 @@ import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const data = require('../data.json');
 let ageFilter = 'asc';
-let genderFilter = 'asc';
-let firstFilter = 'asc';
-let lastFilter = 'asc';
-let emailFilter = 'asc';
+let genderFilter = false;
+let firstFilter = false;
+let lastFilter = false;
+let emailFilter = false;
 function component() {
   const element = document.createElement('div');
 
@@ -15,6 +15,7 @@ function component() {
 
   element.appendChild(searchBox());
   element.appendChild(table);
+  data.sort((a, b) => a.name.first.localeCompare(b.name.first) || 0);
   buildTable(data, table);
   element.classList.add('container');
   element.classList.add('p-3');
@@ -68,21 +69,21 @@ function sortAge() {
 
 function sortGender() {
   const fData = filterData();
+  genderFilter = !genderFilter;
   fData.sort((a, b) => {
-    let comparison = 0;
-    if (a.gender < b.gender) {
-      comparison = 1;
-    } else if (a.gender > b.gender) {
-      comparison = -1;
-    }
-
-    if (genderFilter === 'asc') {
-      genderFilter = 'desc';
-      return comparison;
-    } else {
-      genderFilter = 'asc';
-      return comparison * -1;
-    }
+    let af = a.gender.toLowerCase();
+    let bf = b.gender.toLowerCase();
+    return genderFilter
+      ? af > bf
+        ? -1
+        : bf > af
+        ? 1
+        : 0
+      : bf > af
+      ? -1
+      : af > bf
+      ? 1
+      : 0;
   });
 
   const table = document.getElementById('users-list');
@@ -91,30 +92,21 @@ function sortGender() {
 
 function sortFirstName() {
   const fData = filterData();
+  firstFilter = !firstFilter;
   fData.sort((a, b) => {
-    /*if (firstFilter === 'asc') {
-      firstFilter = 'desc';
-      if (a.name.first > b.name.first) {
-        return 1;
-      } else if (a.name.first < b.name.first) {
-        return -1;
-      }
-      return 0;
-    } else {
-      firstFilter = 'asc';
-      if (a.name.first < b.name.first) {
-        return 1;
-      } else if (a.name.first > b.name.first) {
-        return -1;
-      }
-      return 0;
-    }*/
-    if (a.name.first > b.name.first) {
-      return 1;
-    } else if (a.name.first < b.name.first) {
-      return -1;
-    }
-    return 0;
+    let af = a.name.first.toLowerCase();
+    let bf = b.name.first.toLowerCase();
+    return firstFilter
+      ? af > bf
+        ? -1
+        : bf > af
+        ? 1
+        : 0
+      : bf > af
+      ? -1
+      : af > bf
+      ? 1
+      : 0;
   });
   const table = document.getElementById('users-list');
   buildTable(fData, table);
@@ -122,13 +114,21 @@ function sortFirstName() {
 
 function sortLastName() {
   const fData = filterData();
+  lastFilter = !lastFilter;
   fData.sort((a, b) => {
-    if (a.name.last > b.name.last) {
-      return 1;
-    } else if (a.name.last < b.name.last) {
-      return -1;
-    }
-    return 0;
+    let af = a.name.last.toLowerCase();
+    let bf = b.name.last.toLowerCase();
+    return lastFilter
+      ? af > bf
+        ? -1
+        : bf > af
+        ? 1
+        : 0
+      : bf > af
+      ? -1
+      : af > bf
+      ? 1
+      : 0;
   });
   const table = document.getElementById('users-list');
   buildTable(fData, table);
@@ -136,13 +136,21 @@ function sortLastName() {
 
 function sortEmail() {
   const fData = filterData();
+  emailFilter = !emailFilter;
   fData.sort((a, b) => {
-    if (a.email > b.email) {
-      return 1;
-    } else if (a.email < b.email) {
-      return -1;
-    }
-    return 0;
+    let af = a.email.toLowerCase();
+    let bf = b.email.toLowerCase();
+    return emailFilter
+      ? af > bf
+        ? -1
+        : bf > af
+        ? 1
+        : 0
+      : bf > af
+      ? -1
+      : af > bf
+      ? 1
+      : 0;
   });
   const table = document.getElementById('users-list');
   buildTable(fData, table);
